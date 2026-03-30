@@ -1,0 +1,15 @@
+#idUm{
+background: green; border-radius:100px;
+width:150px; height:150px;
+display:inline-block; margin:10px;
+}
+#idDois{
+background: yellow; border-radius:100px;
+width:150px; height:150px;
+display:inline-block; margin:10px;
+}
+#idTres{
+background: red; border-radius:100px;
+width:150px; height:150px;
+display:inline-block; margin:10px;
+}

@@ -1,0 +1,40 @@
+#container{
+width:800px;
+border: 1px solid gray;
+margin:auto;
+}
+#topo{
+width:800px;
+height:150px;
+border:1px solid gray;
+margin:auto;
+padding:20px;
+box-sizing: border-box;
+}
+#corpo{
+width:800px;
+height:330px;
+border:1px solid gray;
+margin:auto;
+}
+#texto{
+width:400px;
+height:330px;
+border:1px solid gray;
+float:left;
+padding:10px;
+box-sizing: border-box;
+}
+#img{
+width:398px;
+height:330px;
+border:1px solid gray;
+float:right;
+}
+#rodape{
+width:800px;
+height:100px;
+border:1px solid gray;
+line-height:100px;
+text-align:center;
+}

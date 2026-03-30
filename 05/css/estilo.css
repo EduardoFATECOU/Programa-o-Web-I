@@ -1,0 +1,76 @@
+h1{
+color:white;
+background-color:blue;
+}
+h1:hover{
+color:red;
+background-color:black;
+cursor:pointer;
+}
+body{
+/*background-color: green;*/
+/*background-image:url(../img/fundo-01.png);*/
+/*background-image:url(../img/fundo-02.png);
+/*background-repeat: repeat;*/
+/*background-repeat: repeat-x;*/
+/*background-repeat: repeat-y;*/
+/*background-repeat: no-repeat;*/
+}
+img{
+border:3px solid red;
+/*margin-top:50px;*/
+/*margin-left:50px;*/
+margin:50px 80px;
+}
+a{
+cursor: pointer;
+}
+h2{
+float:right;
+}
+body{
+font-family:Verdana, Geneva, sans-serif;
+}
+a:hover{
+font-family:'Lucida Sans', Geneva, sans-serif;
+text-decoration:underline;
+color:red;
+cursor:pointer;
+}
+h4{
+font-size:30pt;
+}
+h5{
+font-size:30px;
+}
+h6{
+font-size:1.2em;
+}
+hr{
+margin:auto; 
+width:300px;
+height:50px;
+}
+p{
+padding:25px 5px;
+}
+h3{
+font-style: italic;
+text-align:center;
+text-decoration:underline;
+}
+h1{
+font-weight:bold;
+text-transform: uppercase;
+}
+h2 {
+font-weight:bolder;
+text-transform: lowercase;
+}
+h3{
+font-weight:900;
+text-transform: capitalize;
+}
+h4 {
+font-weight:500;
+}
