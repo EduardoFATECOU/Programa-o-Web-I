@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 10 - Formulário com Campos Obrigatórios</title>
+    <script type="text/javascript" src="tarefa10.js"></script>
+</head>
+<body>
+    <form name="fCadastro" action="javascript:DadosRecebidos()">
+        Nome  <input type="text" name="nome" size="30"><br><br>
+        Idade <input type="text" name="idade" size="3"><br><br>
+        Sexo  <input type="radio" name="sexo" value="masculino">Masculino
+              <input type="radio" name="sexo" value="feminino">Feminino<br><br>
+        Qual esporte você pratica? 
+              <input type="checkbox" name="esporte" value="futebol">Futebol
+              <input type="checkbox" name="esporte" value="volei">Volei
+              <input type="checkbox" name="esporte" value="basquete">Basquete<br><br>
+        Qual sua estação favorita do ano?
+              <select name="estacao">
+                <option value="">----Selecione uma Opção----</option>
+                <option value="primavera">Primavera</option>
+                <option value="verao">Verão</option>
+                <option value="outono">Outono</option>
+                <option value="inverno">Inverno</option>                
+              </select><br><br>
+        <input type="button" value="Salvar" onclick="validacao()">
+    </form>
+</body>
+</html>

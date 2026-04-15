@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 04</title>
+    <script type="text/javascript">
+        function escreveNome(){
+            var texto;
+            texto = document.fExemplo.nome.value;
+            document.write("Seu nome é: "+ texto);
+        }
+    </script>
+</head>
+<body>
+    <form name="fExemplo">
+        Informe seu nome <input type="text" size="20" name="nome">
+        <input type="button" value="Enviar" onclick="escreveNome()">
+        <input type="reset" value="Cancelar">
+    </form>
+</body>
+</html>

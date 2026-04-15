@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 08</title>
+    <script type="text/javascript">
+        var global;
+        function teste(){
+            var local=10;
+            document.write("Dentro da função:");
+            document.write("<br>Valor local: " + local);
+            document.write("<br>Valor global: " + global);
+        }
+        global = 20;
+        teste();
+        document.write("<br>Fora da função:");
+        document.write("<br>Valor local: " + local);
+        document.write("<br>Valor global: " + global);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
